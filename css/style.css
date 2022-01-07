@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /*1 rem = 10 px*/
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+/**Globales*/
+.contenedor {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
+h4 {
+  font-size: 2.8rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-image: url(../../img/businessman-reading-contract-closeup.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header a:hover {
+  color: aqua;
+}
+header .head {
+  color: white;
+  text-align: center;
+  position: relative;
+  height: 80%;
+}
+header .head button {
+  font-size: 1.5rem;
+  height: 5rem;
+  width: 20rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+header {
+  background-image: url(../../img/businessman-reading-contract-closeup.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  a:hover {
+    color: aqua;
+  }
+  .head {
+    color: white;
+    text-align: center;
+    position: relative;
+    height: 80%;
+    button {
+      font-size: 1.5rem;
+      height: 5rem;
+      width: 20rem;
+    }
+  }
+}
