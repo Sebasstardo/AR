@@ -35,7 +35,7 @@ h4 {
 }
 
 h1 {
-  font-size: 4.8rem;
+  font-size: 4.8rem !important;
 }
 
 h2 {
@@ -54,12 +54,42 @@ img {
   max-width: 100%;
 }
 
+.mt {
+  margin-top: 10rem;
+}
+
+.pt {
+  padding-top: 10rem;
+}
+
+.pb {
+  padding-bottom: 10rem;
+}
+
+.btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  font-weight: inherit;
+}
+
+.fijo {
+  position: fixed;
+  background-color: #18262f;
+  width: 100%;
+}
+
 header {
-  background-image: url(../../img/businessman-reading-contract-closeup.jpg);
+  background-image: url(../../img/banner.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+}
+header h1 {
+  font-weight: 300;
+  color: white;
 }
 header::before {
   content: "";
@@ -69,9 +99,6 @@ header::before {
   bottom: 0px;
   left: 0px;
   background-color: rgba(0, 0, 0, 0.5);
-}
-header a:hover {
-  color: aqua;
 }
 header .head {
   color: white;
@@ -83,6 +110,124 @@ header .head button {
   font-size: 1.5rem;
   height: 5rem;
   width: 20rem;
+}
+
+.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+  font-size: 2.2rem;
+}
+
+@media (max-width: 475px) {
+  header {
+    height: 80vh;
+  }
+  header::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 20%;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  h1 {
+    font-size: 2.8rem !important;
+  }
+}
+.services {
+  height: 100%;
+  min-height: 100vh;
+}
+.services article .br {
+  border: 1px solid black;
+  padding-top: 2rem;
+  border-radius: 0.4rem;
+  box-shadow: 3px 3px 18px -9px rgba(0, 0, 0, 0.5);
+}
+.services article .br button {
+  margin-bottom: 1.5rem;
+}
+
+.how {
+  height: 100%;
+  min-height: 100vh;
+}
+
+.inter {
+  background-color: #18262f;
+  color: white;
+}
+.inter img {
+  width: 100%;
+  height: 62rem;
+  border-radius: 0rem 8rem 8rem 0rem;
+}
+
+@media (max-width: 475px) {
+  .photoArticle {
+    margin-top: 5rem;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .inter {
+    background-color: #18262f;
+    color: white;
+  }
+  .inter img {
+    width: 100%;
+    border-radius: 0rem !important;
+  }
+}
+#contactos {
+  background-color: #18262f;
+  height: 100%;
+  min-height: 50vh;
+  color: white;
+}
+
+@media (max-width: 475px) {
+  .imgUser {
+    text-align: center;
+  }
+  .imgUser img {
+    height: 10rem;
+    width: 10rem;
+  }
+}
+.servicesSecond {
+  background-image: url(../../img/inter.jpg);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.servicesSecond::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 40%;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lastImg {
+  background-image: url(../../img/footer.jpg);
+  height: 50vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.footer {
+  background-color: #18262f;
+}
+.footer p {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

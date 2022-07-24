@@ -1,0 +1,20 @@
+
+#contactos{
+    background-color: $footer;
+    height: 100%;
+    min-height: 50vh;
+    color: white;
+}
+
+@media (max-width: 475px){
+ 
+.imgUser{
+    text-align: center;
+    img{
+        height: 10rem;
+        width: 10rem;
+
+    }
+}
+
+}

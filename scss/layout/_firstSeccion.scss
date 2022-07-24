@@ -1,0 +1,15 @@
+.services{
+    height: 100%;
+    min-height: 100vh;
+    article{
+        .br{
+            border: 1px solid black;
+            padding-top: 2rem;
+            border-radius: 0.4rem;
+            box-shadow: 3px 3px 18px -9px rgba(0,0,0,0.5);
+            button{
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+}

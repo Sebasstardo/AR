@@ -1,0 +1,16 @@
+.lastImg{
+    background-image: url(../../img/footer.jpg);
+    height: 50vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+.footer{
+    background-color: $footer;
+
+    p{
+        color: white;
+    }
+
+}

@@ -1,9 +1,13 @@
 header {
-  background-image: url(../../img/businessman-reading-contract-closeup.jpg);
+  background-image: url(../../img/banner.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+  h1{
+    font-weight: 300;
+   color: white;
+  }
 
   &::before {
     content: "";
@@ -14,9 +18,7 @@ header {
     left: 0px;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  a:hover {
-    color: aqua;
-  }
+
   .head {
     color: white;
     text-align: center;
@@ -27,5 +29,27 @@ header {
       height: 5rem;
       width: 20rem;
     }
+  }
+}
+
+.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+	font-size: 2.2rem;
+}
+
+@media (max-width: 475px){
+  header{
+    height: 80vh;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 20%;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+  h1 {
+    font-size: 2.8rem !important;
   }
 }

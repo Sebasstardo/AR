@@ -8,7 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -24,71 +29,191 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
-    <title>Saul</title>
+    <title>RGM</title>
 
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid ">
-                <a class="navbar-brand text-white" href="#">Better Call Saul</a>
-                <button class="navbar-toggler bg-dark " type="button" data-bs-toggle="collapse"
+    <header class="">
+        <nav id="menu" class="navbar navbar-expand-lg  navbar-dark  fixed-top">
+            <div class="container ">
+                <h1 class="navbar-brand"><span class="fw-bold">RGM</span> abogados</h1>
+                <button class="navbar-toggler bg-dark  " type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon text-white "></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#services">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                            <a class="nav-link " aria-current="page" href="#quien">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link " href="#contactos">Contacto</a>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
-
         <div class="head container  d-flex flex-column justify-content-center align-items-center ">
-
             <h1> Lorem ipsum dolor sit amet consectetur </h1>
-
-            <button class=" btn btn-outline-light mt-5">Ver Mas</button>
-
+            <button class=" btn btn-outline-light mt-5" onclick="location.href='#contactos'">Contactanos</button>
         </div>
     </header>
     <main>
-        <section class="fSeccion">
-            <h1>Lorem Ipsum</h1>
+        <div id="services" class="pt pb" style="background-color:white ;">
+            <section class="services text-center container ">
+                <h1>Nuestros Servicios</h1>
+                <article class="row mt">
+                    <div class="col-12 col-md-3">
+                        <img src="img/auction.png" alt="">
+                    </div>
+                    <div class=" col-12 col-md-8">
+                        <h4 class="fw-bold mt-0 mt-md-5 ">Lorem</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque ratione ullam,
+                            aspernatur ut deleniti inventore enim quo necessitatibus laboriosam, doloribus odit eos
+                            numquam ipsam fuga praesentium officia saepe, dolores maiores. </p>
+                        <button class="btn mt-4 btn-outline-primary w-25" onclick="location.href='services.html'">
+                            Ver Mas
+                        </button>
+                    </div>
+                </article>
 
+                <article class="row mt">
+                    <div class="col-12 col-md-8">
+                        <h4 class="fw-bold mt-0 mt-md-5 ">Lorem</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quas delectus fugit soluta
+                            facilis </p>
+                        <button class="btn mt-4 btn-outline-primary w-25" onclick="location.href='services.html'">
+                            Ver Mas
+                        </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <img src="img/balance.png" alt="">
+                    </div>
+                </article>
+
+                <article class="row mt">
+                    <div class="col-12 col-md-3 money">
+                        <img src="img/cash-payment.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h4 class="fw-bold mt-0 mt-md-5 ">Lorem</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quas delectus fugit soluta
+                            facilis </p>
+                        <button class="btn mt-4 btn-outline-primary w-25" onclick="location.href='services.html'">
+                            Ver Mas
+                        </button>
+                    </div>
+                </article>
+
+                <article class="row mt">
+                    <div class="col-12 col-md-8">
+                        <h4 class="fw-bold mt-0 mt-md-5 ">Lorem</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quas delectus fugit soluta
+                            facilis </p>
+                        <button class="btn mt-4 btn-outline-primary w-25" onclick="location.href='services.html'">
+                            Ver Mas
+                        </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <img src="img/family.png" alt="">
+                    </div>
+                </article>
+
+            </section>
+        </div>
+
+        <section class="container-fluid inter">
+            <article class="row">
+                <div class=" col-12 p-0 col-md-7">
+                    <img src="img/inter.jpg" alt="">
+                </div>
+                <div class=" col-12 col-md-5  text-center  d-flex  flex-column justify-content-center">
+                    <h2>Lorem</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga alias eligendi veniam magni omnis
+                        maiores, aliquam dolorem eius quo, praesentium obcaecati illum minus voluptatibus doloribus
+                        inventore repellat ducimus dolores dolorum?</p>
+                </div>
+            </article>
+        </section>
+        <section id="quien" class="container how pb">
+            <div class="row">
+                <h1 class="text-center pt">Quienes Somos</h1>
+                <div class="mt-3 mt-sm-0">
+                    <article class="row mt text-center text-md-start">
+                        <div class="col-sm-2 col-lg-2 imgUser">
+                            <img src="img/user.png" class="card-img-top rounded-circle border border-dark " alt="...">
+                        </div>
+                        <div class="col-sm-10 col-lg-10">
+                            <h2 class="fw-bold name">Lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis reiciendis magni
+                                iste quas enim autem quam dolore minus quisquam asperiores nemo saepe
+                                necessitatibus neque eaque, inventore expedita, atque fugit modi.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis reiciendis magni
+                                iste quas enim autem quam dolore minus quisquam asperiores nemo saepe
+                                necessitatibus neque eaque, inventore expedita, atque fugit modi.</p>
+                        </div>
+                    </article>
+                    <article class="row mt text-center text-md-start">
+                        <div class=" col-sm-2 col-lg-2 imgUser">
+                            <img src="img/user.png" class="card-img-top rounded-circle border border-dark " alt="...">
+                        </div>
+                        <div class="col-sm-10  col-lg-10">
+                            <h2 class="fw-bold name">Lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis reiciendis magni
+                                iste quas enim autem quam dolore minus quisquam asperiores nemo saepe
+                                necessitatibus neque eaque, inventore expedita, atque fugit modi.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis reiciendis magni
+                                iste quas enim autem quam dolore minus quisquam asperiores nemo saepe
+                                necessitatibus neque eaque, inventore expedita, atque fugit modi.</p>
+                        </div>
+                    </article>
+                    <article class="row mt text-center text-md-start">
+                        <div class=" col-sm-2 col-lg-2 imgUser">
+                            <img src="img/user.png" class="card-img-top rounded-circle border border-dark ">
+                        </div>
+                        <div class="col-sm-10 col-lg-10">
+                            <h2 class="fw-bold name">Lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis reiciendis magni
+                                iste quas enim autem quam dolore minus quisquam asperiores nemo saepe
+                                necessitatibus neque eaque, inventore expedita, atque fugit modi.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis reiciendis magni
+                                iste quas enim autem quam dolore minus quisquam asperiores nemo saepe
+                                necessitatibus neque eaque, inventore expedita, atque fugit modi.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="contactos" class="container-fluid inter2 pt">
+            <article class="row">
+                <div class=" col-12  text-center  d-flex  flex-column justify-content-center pt-5">
+                    <h2>Contacto</h2>
+                    <ul>
+                        <li>+561565156 - Lorem@gmail.com- Lorem</li>
+                        <li>+561565156 - Lorem@gmail.com- Lorem</li>
+                        <li>+561565156 - Lorem@gmail.com- Lorem</li>
+
+                    </ul>
+                </div>
+            </article>
         </section>
 
+
     </main>
+    <footer>
+        <div class="lastImg">
+        </div>
+        <div class="footer text-center pt-5">
+            <p class="m-0 pb-5">
+                © 2022 RGM Abogados. Todos los derechos reservados. Creado por Inari </p>
+        </div>
 
-
-
-
-
+    </footer>
 </body>
 
 </html>
