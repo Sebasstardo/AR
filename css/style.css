@@ -81,7 +81,7 @@ img {
 }
 
 header {
-  background-image: url(../../img/banner.jpg);
+  background-image: url(../img/banner.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -215,7 +215,7 @@ header .head button {
 }
 
 .lastImg {
-  background-image: url(../../img/footer.jpg);
+  background-image: url(../img/footer.jpg);
   height: 50vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
