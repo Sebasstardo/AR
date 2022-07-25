@@ -80,6 +80,10 @@ img {
   width: 100%;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}
+
 header {
   background-image: url(../img/bannerFinal.jpg);
   height: 100vh;
