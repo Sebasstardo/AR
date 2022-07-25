@@ -1,18 +1,9 @@
 .servicesSecond{
-    background-image: url(../img/inter.jpg);
+    background-image: url(../img/interB.jpg);
     // background-image: url(../../img/inter.jpg);
     height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 40%;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
+
 }

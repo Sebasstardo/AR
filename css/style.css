@@ -81,7 +81,7 @@ img {
 }
 
 header {
-  background-image: url(../img/banner.jpg);
+  background-image: url(../img/bannerFinal.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,15 +90,6 @@ header {
 header h1 {
   font-weight: 300;
   color: white;
-}
-header::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 header .head {
   color: white;
@@ -198,20 +189,11 @@ header .head button {
   }
 }
 .servicesSecond {
-  background-image: url(../img/inter.jpg);
+  background-image: url(../img/interB.jpg);
   height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-}
-.servicesSecond::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 40%;
-  left: 0px;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .lastImg {
