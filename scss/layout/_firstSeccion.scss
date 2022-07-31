@@ -13,3 +13,37 @@
         }
     }
 }
+
+.verMasParr{
+    display: block;
+}
+
+.hidden{
+    
+    visibility:hidden;
+    opacity: 0;
+    -moz-transition: opacity 1s, visibility .5s;
+    -webkit-transition: opacity 1s, visibility .5s;
+    -o-transition: opacity 1s, visibility .5s;
+    transition: opacity 1s, visibility .5s;
+}
+.shown{    
+    visibility:visible;
+    opacity: 1;
+    transition: opacity 1.5s, visibility 1s;
+}
+
+.fontAlign{
+        font-size: 2rem;
+        align-self: baseline;
+    }
+
+
+@media (max-width: 475px){
+  .mt{
+    margin-top: 0rem;
+  }
+  .hidden{
+    height: 0rem;
+  }
+  }
