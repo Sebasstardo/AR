@@ -19,6 +19,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
@@ -26,8 +27,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <script src="js/wow.min.js"></script>
+
     <script src="js/main.js"></script>
     <title>RGM</title>
 
@@ -37,6 +37,9 @@
     <header class="">
         <nav id="menu" class="navbar navbar-expand-lg  navbar-dark  fixed-top">
             <div class="container ">
+                <div id="hidden" class="titleHidden">
+                    <h3 class="text-light"> <span class="fw-bold">RGM</span> abogados</h3>
+                </div>
                 <button class="navbar-toggler bg-dark  " type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +60,7 @@
                 </div>
             </div>
         </nav>
-        <div class="head container  d-flex flex-column justify-content-center align-items-center ">
+        <div class="head container  d-flex flex-column justify-content-center align-items-center " data-aos="fade-right" data-aos-delay="5" data-aos-duration="2000">
             <h1 class="navbar-brand"><span class="fw-bold">RGM</span> abogados</h1>
 
         </div>
@@ -67,14 +70,14 @@
             <div class="row">
                 <h1 class="text-center pt">Quiénes Somos</h1>
                 <div class="mt-3 mt-sm-0">
-                    <article class="row mt text-center text-md-start">
+                    <article class="row mt text-center" data-aos="fade-right" data-aos-delay="5" data-aos-duration="2000" data-aos-duration="2000">
                         <div class="col-12  col-md-4 d-flex flex-column align-items-center imgUser">
-                            <h3 class="fw-bold name">Alonzo Ramírez Guerra</h3>
+                            <h3 class="fw-bold name" >Alonzo Ramírez Guerra</h3>
                             <h4 class="my-5">aramirez@rgmabodagos.cl</h4>
                             <img src="img/user.png" class="card-img-top rounded-circle border border-dark " alt="...">
                         </div>
-                        <div class="col-12 col-md-8 ">
-                            <h4 class="fw-bold name">Experiencia</h4>
+                        <div class="col-12 col-md-8 exp">
+                            <h4 class="fw-bold name mb-4">Experiencia</h4>
                             <p>Alonzo ha centrado su práctica en el área corporativa, brindando asesoría principalmente
                                 a empresas en el ámbito societario, contractual, tributario e inmobiliario. Igualmente,
                                 ha asesorado a diversas empresas en litigios civiles y arbitrales, y en contenciosos
@@ -89,7 +92,7 @@
                                 de la Universidad Finis Terrae, y es Colaborador Permanente en Estudios de
                                 Jurisprudencia de la Universidad Católica.</p>
 
-                            <div class="hiddenHow" id="parrhow">
+                            <div class="hiddenHow text-center text-sm-start" id="parrhow">
                                 <h4 class="fw-bold name ">Formación</h4>
                                 <ul class="">
                                     <li>Lincenciado en Ciencias Jurídicas y Sociales, Universidad Diego Portales 2017
@@ -103,20 +106,19 @@
                                 <p class="">Corporativo y negocios, litigios y contencioso administrativo </p>
 
                             </div>
-                            <button class="btn  btn-outline-primary w-25  " id="btnVerHow">
-                                Ver Mas
+                            <button  class="btn btn-outline-primary w-25 mt-4 " id="btnVerHow">
+                            Ver Mas
                             </button>
-
                         </div>
                     </article>
-                    <article class="row mt text-center text-md-start">
-                        <div class="col-12  col-md-4 d-flex flex-column align-items-center imgUser">
+                    <article class="row mt text-center" data-aos="fade-left" data-aos-delay="5" data-aos-duration="2000">
+                        <div class="col-12  col-md-4 d-flex flex-column align-items-center imgUser order-1 order-sm-2 ">
                             <h3 class="fw-bold name">Francisco Madariaga Arqueros</h3>
                             <h4 class="my-5">fmadariaga@rgmabodagos.cl</h4>
                             <img src="img/user.png" class="card-img-top rounded-circle border border-dark " alt="...">
                         </div>
-                        <div class="col-12 col-md-8">
-                            <h4 class="fw-bold name">Experiencia</h4>
+                        <div class="col-12 col-md-8 exp">
+                            <h4 class="fw-bold name mb-4">Experiencia</h4>
                             <p>Francisco ha centrado su práctica en el derecho del trabajo y seguridad social.
                             </p>
                             <p>Particularmente posee experiencia en representación de empresas tanto en Juzgados de
@@ -124,7 +126,7 @@
                                 laboral corporativa. También se ha desempeñado en la tramitación de juicios civiles,de
                                 familia y conteciosos</p>
 
-                            <div class="hiddenHow" id="parrhow2">
+                            <div class="hiddenHow text-center text-sm-start" id="parrhow2">
                                 <h4 class="fw-bold name">Formación</h4>
                                 <ul>
                                     <li>Lincenciado en Ciencias Jurídicas y Sociales, Pontificia Universidad Católica de
@@ -138,20 +140,20 @@
                                 <h4 class="fw-bold name">Áreas de Práctica</h4>
                                 <p>Corporativo y negocios, litigios y contencioso administrativo </p>
                             </div>
-                            <button class="btn  btn-outline-primary w-25  " id="btnVerHow2">
+                            <button  class="btn  btn-outline-primary w-25 mt-4  " id="btnVerHow2">
                                 Ver Mas
                             </button>
                         </div>
                     </article>
 
-                    <article class="row mt text-center text-md-start">
+                    <article class="row mt text-center" data-aos="fade-right" data-aos-delay="5" data-aos-duration="2000">
                         <div class="col-12  col-md-4 d-flex flex-column align-items-center imgUser">
                             <h3 class="fw-bold name">Camilo Valentín Gómez Aliste</h3>
                             <h4 class="my-5">cgomez@rgmabodagos.cl</h4>
                             <img src="img/user.png" class="card-img-top rounded-circle border border-dark " alt="...">
                         </div>
-                        <div class="col-12 col-md-8">
-                            <h4 class="fw-bold name">Experiencia</h4>
+                        <div class="col-12 col-md-8 exp">
+                            <h4 class="fw-bold name mb-4">Experiencia</h4>
                             <p>Camilo ha centrado su práctica en el derecho de familia y el ámbito Civil, lo que incluye
                                 conocimientos específicos en el ámbito del corretaje de propiedades y el derecho
                                 sucesorio.
@@ -159,7 +161,7 @@
                             <p>A su vez, dados los conocimientos propios de su otra área de estudio, se especializa en
                                 cuestiones relacionadas con la carrera docente y el ámbito administrativo que se
                                 desprende de esta.</p>
-                            <div class="hiddenHow" id="parrhow3">
+                            <div class="hiddenHow text-center text-sm-start" id="parrhow3">
                                 <h4 class="fw-bold name">Formación</h4>
                                 <ul>
                                     <li>Egresado en Ciencias Jurídicas y Sociales, Pontificia Universidad Católica de
@@ -171,7 +173,7 @@
 
 
                             </div>
-                            <button class="btn  btn-outline-primary w-25  " id="btnVerHow3">
+                            <button " class="btn  btn-outline-primary w-25 mt-4  " id="btnVerHow3">
                                 Ver Mas
                             </button>
                     </article>
@@ -198,39 +200,10 @@
         <div id="services" class="pt pb" style="background-color:white ;">
             <section class="services text-center container ">
                 <h1>Áreas de Práctica</h1>
-                <article class="row mt">
-                    <div
-                        class="col-12 col-md-5 d-flex align-items-center mb-5 mb-md-0  justify-content-evenly align-self-baseline">
-                        <div>
-                            <img src="img/auction.png" alt="">
-                            <h4 class="fw-bold mt-0 mt-md-5 ">Corporativo</h4>
-                        </div>
-                        <button class="btn  btn-outline-primary w-25 " id="btnVerMas">
-                            Ver Mas
-                        </button>
-                    </div>
-                    <div class="col-12 col-md-7 text-start  mb-5 mb-md-0 font">
-                        <div class="fontAlign pt-5">
-                            <p>
-                                Asesoria intefral en la creación de empresa y en el desarrollo y consolidación de
-                                empresas
-                                en formación.
-                            </p>
-                            <p id="parrCorp" class="hidden">
-                                Nuestros servicios abarcan, entre otros, creación, modificación, división,
-                                transformación,
-                                fusión, disolución y liquidación de sociedades,
-                                confección de pactos de accionistas, directorios, poderes de representación, contratos
-                                de
-                                compraventa de acciones y demás asuntos corporativos.
-                            </p>
+                <article class="row mb-5 mt" data-aos="fade-left" data-aos-delay="5" data-aos-duration="2000">
+                    <div class="col-12 col-md-7  order-2 order-sm-1  exp fontAlign"> 
+                        <h4 class="fw-bold mb-5 text-start">Litigios</h4>
 
-                        </div>
-                    </div>
-                </article>
-                <article class="row ">
-                    <div class="col-12 col-md-7 text-start  mb-5 mb-md-0  mt-sm-5 order-2 order-sm-1 ">
-                        <div class="fontAlign pt-5">
                             <p>
                                 Asesoría y representación en litigios ante tribunales ordinarios de justicia, juzgados
                                 de
@@ -247,27 +220,78 @@
                                 otros
                                 asuntos.
                             </p>
-                        </div>
+                            <button  class="btn  btn-outline-primary w-25 " id="btnVerMasLi">
+                                Ver Mas
+                            </button>
                     </div>
-                    <div
-                        class="col-12 col-md-4 d-flex align-items-center mb-5 mb-md-0  justify-content-evenly order-1 order-sm-2 align-self-baseline ">
-                        <button class="btn  btn-outline-primary w-25 " id="btnVerMasLi">
-                            Ver Mas
-                        </button>
+                    <div class="col-12 col-md-5 d-flex align-items-center justify-content-center mb-5 mb-md-0 order-2 order-sm-1  ">
+                      
                         <div>
                             <img src="img/balance.png" alt="">
-                            <h4 class="fw-bold mt-0 mt-md-5 ">Litigios</h4>
                         </div>
                     </div>
                 </article>
-                <article class="row ">
+                <article class="row mt mb-5" data-aos="fade-right" data-aos-delay="5" data-aos-duration="2000">
+                    <div class="col-12 col-md-5 d-flex flex-column align-items-center mb-5 mb-md-0">
+                            <img src="img/auction.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-7  mb-5 mb-md-0 exp fontAlign" >
+                        <h4 class="fw-bold mb-5 text-start ">Corporativo</h4>
+                            <p>
+                                Asesoria intefral en la creación de empresa y en el desarrollo y consolidación de
+                                empresas
+                                en formación.
+                            </p>
+                            <p id="parrCorp" class="hidden">
+                                Nuestros servicios abarcan, entre otros, creación, modificación, división,
+                                transformación,
+                                fusión, disolución y liquidación de sociedades,
+                                confección de pactos de accionistas, directorios, poderes de representación, contratos
+                                de
+                                compraventa de acciones y demás asuntos corporativos.
+                            </p>
+                            <button class="btn  btn-outline-primary w-25 " id="btnVerMas">
+                                Ver Mas
+                            </button>
+                    </div>
+                </article>
+
+                <article class="row mb-5  mt" data-aos="fade-left" data-aos-delay="5" data-aos-duration="2000">
+                    <div class="col-12 col-md-7 exp fontAlign ">      
+                            <h4 class="fw-bold mb-5 text-start">Laboral y corporativo laboral</h4>
+                            <p>
+                                Asesoría y representación de litigios y controversias en la materia, como también
+                                asesorías
+                                corporativas laborales.
+
+                            </p>
+                            <p id="parrLab" class="hidden">
+                                Nuestras experiencia práctica abarca, entre otros, juicios por despido injustificados,
+                                autodespido, tutle de vulneración de derechos fundamentales, reclamación administrativa
+                                y
+                                judicial de multas, confección de contratos de trabajo y reglamento interno de orden,
+                                higiene y seguridad y adaptación de los mismos a la normativa laboral y de seguridad
+                                social.
+                            </p>
+                            <button class="btn  btn-outline-primary w-25 " id="btnVerMasLab">
+                                Ver Mas
+                            </button>
+                    </div>
+                    <div class="col-12 col-md-5 d-flex align-items-center mb-5 mb-md-0  justify-content-evenly align-self-baseline">
+                        <img src="img/laboral.png" alt="">
+                    </div>
+                </article>
+
+               
+                <article class="row mt" data-aos="fade-right" data-aos-delay="5" data-aos-duration="2000">
                     <div class="col-12 col-md-6 d-flex align-items-center mb-5 mb-md-0  justify-content-evenly">
                         <div>
                             <img src="img/cash-payment.png" alt="">
-                            <h4 class="fw-bold mt-0 mt-md-5 ">Negocios</h4>
+                    
                         </div>
                     </div>
-                    <div class="col-12   col-md-6 text-start  mb-5 mb-md-0  mt-sm-5 ">
+                    <div class="col-12 col-md-6 exp fontAlign ">
+                        <h4 class="fw-bold text-start mb-5 ">Negocios</h4>
                         <p>
                             Asesoría en la negociación, confección y revisión de contratos, en la
                             realización de
@@ -278,9 +302,11 @@
                     </div>
 
                 </article>
-                <article class="row mt">
+                <article class="row mt" data-aos="fade-left" data-aos-delay="5" data-aos-duration="2000">
 
-                    <div class="col-12   col-md-6 text-start  mb-5 mb-md-0  mt-sm-5  order-2 order-sm-1">
+                    <div class="col-12   col-md-6 fontAlign exp  mb-5 mb-md-0  mt-sm-5  order-2 order-sm-1">
+                        <h4 class="fw-bold mb-5 ">Contencioso administrativo y acciones constitucionales
+                        </h4>
                         <p>
                             Asesoría y representación judicial y administrativa, derivado de procedimientos
                             administrativos sancionatorios, tramitación de permisos, sumarios administrativos, reclamo
@@ -298,52 +324,33 @@
                     </div>
                     <div
                         class="col-12 col-md-6 d-flex align-items-center mb-5 mb-md-0  justify-content-evenly order-1 order-sm-2">
-                        <div>
-                            <img src="img/family.png" alt="">
-                            <h4 class="fw-bold mt-0 mt-md-5 ">Contencioso administrativo y acciones constitucionales
-                            </h4>
-                        </div>
-                    </div>
-
-                </article>
-                <article class="row">
-                    <div
-                        class="col-12 col-md-5 d-flex align-items-center mb-5 mb-md-0  justify-content-evenly align-self-baseline">
-                        <div>
-                            <img src="img/family.png" alt="">
-                            <h4 class="fw-bold mt-0 mt-md-5 ">Laboral y corporativo laboral</h4>
-                        </div>
-                        <button class="btn  btn-outline-primary w-25 " id="btnVerMasLab">
-                            Ver Mas
-                        </button>
-
-                    </div>
-                    <div class="col-12 col-md-7 text-start  mb-5  mt-sm-5 mb-md-0  ">
-                        <div class="fontAlign pt-5">
-                            <p>
-                                Asesoría y representación de litigios y controversias en la materia, como también
-                                asesorías
-                                corporativas laborales.
-
-                            </p>
-                            <p id="parrLab" class="hidden">
-                                Nuestras experiencia práctica abarca, entre otros, juicios por despido injustificados,
-                                autodespido, tutle de vulneración de derechos fundamentales, reclamación administrativa
-                                y
-                                judicial de multas, confección de contratos de trabajo y reglamento interno de orden,
-                                higiene y seguridad y adaptación de los mismos a la normativa laboral y de seguridad
-                                social.
-                            </p>
-                        </div>
-
+                            <img src="img/contrato.png" alt="">                 
                     </div>
 
                 </article>
 
+                <article class="row mt" class="row mt" data-aos="fade-right" data-aos-delay="5" data-aos-duration="2000">
+                    <div class="col-12 col-md-6 d-flex align-items-center mb-5 mb-md-0  justify-content-evenly">
+                        <div>
+                            <img src="img/family.png" alt="">
+                    
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 exp fontAlign ">
+                        <h4 class="fw-bold text-start mb-5  ">Familia</h4>
+                        <p>
+                            Asesoría y representación en asuntos de derecho de familia.
+                            Nuestra experiencia práctica abarca, entre otros, la representación en juicio ante los juzgados de familia en procedimientos de divorcio y compensación económica, cuidado personal, relación directa y regular, alimentos, entrega inmediata, proteccionales, violencia intrafamiliar, como también resolución extrajudicial de conflictos.
+                        </p>
+
+                    </div>
+
+                </article>
+      
             </section>
         </div>
 
-        <section id="contactos" class="container-fluid inter2 pt">
+        <section id="contactos" class="container-fluid pt" data-aos="fade-up" data-aos-delay="5" data-aos-duration="1000">
             <article class="row">
                 <div class=" col-12  text-center  d-flex  flex-column justify-content-center pt-5">
                     <h2>Contacto</h2>
@@ -356,18 +363,38 @@
                 </div>
             </article>
         </section>
+        <section class="container-fluid">
+            <article class="row">
+                <div class="lastImg">
+                </div>
+            </article>
+        </section>
+        <section class="container-fluid work pt" data-aos="fade-up" data-aos-delay="5" data-aos-duration="1000">
+            <article class="row">
+                <div class=" col-12  text-center  d-flex  flex-column justify-content-center pt-5">
+                    <h2>Trabaja con Nosotros</h2>
+                    <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dignissimos placeat saepe, beatae molestiae facilis sed minima reprehenderit aut dolor? Quos laboriosam earum et? Excepturi, itaque? Esse alias officiis quis?</p>
+                    <ul>
+                        <li>+561565156 - aramiez@rgmaboagos.cl</li>
+                        <li>+561565156 - fmadariaga@rgmaboagos.cl</li>
+                        <li>+561565156 - cgomez@rgmaboagos.cl</li>
 
-
+                    </ul>
+                </div>
+            </article>
+        </section>
     </main>
     <footer>
-        <div class="lastImg">
-        </div>
+     
         <div class="footer text-center pt-5">
             <p class="m-0 pb-5">
                 © 2022 RGM Abogados. Todos los derechos reservados. Creado por Inari </p>
         </div>
 
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/wow.min.js"></script>
+
 </body>
 
 </html>

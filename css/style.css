@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
-  /*1 rem = 10 px*/
+  font-size: 62.5%; /*1 rem = 10 px*/
 }
 
 *,
@@ -80,6 +79,14 @@ img {
   width: 100%;
 }
 
+.titleHidden {
+  visibility: hidden;
+}
+
+.titleShow {
+  visibility: visible;
+}
+
 .navbar-dark .navbar-nav .nav-link {
   color: white !important;
 }
@@ -113,7 +120,6 @@ header .head h1 {
   header {
     height: 80vh;
   }
-
   h1 {
     font-size: 2.8rem !important;
   }
@@ -137,12 +143,13 @@ header .head h1 {
 }
 
 .hidden {
+  height: 0rem;
   visibility: hidden;
   opacity: 0;
   -moz-transition: opacity 1s, visibility 0.5s;
   -webkit-transition: opacity 1s, visibility 0.5s;
   -o-transition: opacity 1s, visibility 0.5s;
-  transition: opacity 1s, visibility 0.5s;
+  transition: opacity 0.1s, visibility 0.5s;
 }
 
 .shown {
@@ -151,16 +158,17 @@ header .head h1 {
   transition: opacity 1.5s, visibility 1s;
 }
 
-.fontAlign {
+.fontAlign h4 {
+  font-size: 2.5rem;
+}
+.fontAlign p {
   font-size: 2rem;
-  align-self: baseline;
 }
 
 @media (max-width: 475px) {
   .mt {
     margin-top: 0rem;
   }
-
   .hidden {
     height: 0rem;
   }
@@ -180,15 +188,20 @@ header .head h1 {
   border-radius: 0rem 8rem 8rem 0rem;
 }
 
+.work {
+  background-color: white;
+  height: 100%;
+  min-height: 50vh;
+  color: #18262f;
+}
+
 @media (max-width: 475px) {
   .photoArticle {
     margin-top: 5rem;
   }
-
   .name {
     text-align: center;
   }
-
   .inter {
     background-color: #18262f;
     color: white;
@@ -233,6 +246,20 @@ header .head h1 {
   visibility: visible;
   opacity: 1;
   transition: opacity 1.5s, visibility 1.5s;
+}
+
+.exp p {
+  text-align: start;
+}
+.exp button {
+  text-align: center;
+}
+
+.expI p {
+  text-align: end;
+}
+.expI button {
+  text-align: center;
 }
 
 @media (max-width: 475px) {

@@ -35,8 +35,22 @@
     opacity: 1;
     transition: opacity 1.5s, visibility 1.5s;
 }
-
-
+.exp{
+  p{
+    text-align: start;
+  }
+  button{
+    text-align: center;
+  }
+}
+.expI{
+  p{
+    text-align: end;
+  }
+  button{
+    text-align: center;
+  }
+}
 @media (max-width: 475px){
 .imgUser{
     text-align: center;
