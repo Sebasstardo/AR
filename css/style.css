@@ -73,11 +73,6 @@ img {
   font-weight: inherit;
 }
 
-* {
-  box-sizing: border-box;
-  outline: 1px solid green;
-}
-
 .fijo {
   position: fixed;
   background-color: #18262f;
