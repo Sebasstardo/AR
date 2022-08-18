@@ -7,9 +7,11 @@
             padding-top: 2rem;
             border-radius: 0.4rem;
             box-shadow: 3px 3px 18px -9px rgba(0,0,0,0.5);
-            button{
-                margin-bottom: 1.5rem;
-            }
+          
+        }
+        img {
+         
+            height: 7rem;
         }
     }
 }
@@ -42,11 +44,8 @@
         }
     }
 
-
 @media (max-width: 475px){
-  .mt{
-    margin-top: 0rem;
-  }
+
   .hidden{
     height: 0rem;
   }
